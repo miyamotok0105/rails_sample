@@ -43,12 +43,15 @@ ruby -v
 ```
 
 
+# その他資料
+
+railsガイド    
 http://railsdoc.com/rails_base
 
 https://railsguides.jp/getting_started.html#%E3%83%A2%E3%83%87%E3%83%AB%E3%82%92%E7%94%9F%E6%88%90%E3%81%99%E3%82%8B
 
 
-Railsでクレカ決済付きECサイトを作ってみよう！
+Railsでクレカ決済付きECサイトを作ってみよう！    
 https://www.m3tech.blog/entry/2017/10/05/103507
 
 brew    
