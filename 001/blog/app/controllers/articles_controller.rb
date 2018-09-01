@@ -26,6 +26,10 @@ class ArticlesController < ApplicationController
     end
 
 
+    def edit
+        @article = Article.find(params[:id])
+    end
+
     def index
         @articles = Article.all
         #plainで返す
@@ -36,6 +40,17 @@ class ArticlesController < ApplicationController
         # @articles = Article.paginate(page: params[:page], per_page: 5).order('created_at DESC')
     end
 
+
+    def update
+        @article = Article.find(params[:id])
+
+        if @article.update(article_params)
+            redirect_to @article
+        else
+            render 'edit'
+        end
+    end
+     
 
     # private
     def article_params
