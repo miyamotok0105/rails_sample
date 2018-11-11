@@ -1,0 +1,2 @@
+class NayoseApi < ApplicationRecord
+end
