@@ -56,3 +56,8 @@ https://www.m3tech.blog/entry/2017/10/05/103507
 
 brew    
 https://brew.sh/index_ja
+
+
+simple rails api sqlite3
+
+https://codeburst.io/how-to-build-a-good-api-using-rubyonrails-ef7eadfa3078
